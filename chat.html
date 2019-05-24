@@ -12,7 +12,7 @@
 </head>
 
 
-<body style="background-image: url(https://imalyshkin.github.io/Hurtugrutton.png); background-size:100%;">
+<body style="background-image: url(https://imalyshkin.github.io/inmotion.png); background-size:100%;">
 
   
 
@@ -44,7 +44,7 @@ Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
 	
  
  -->
-
+<!-- 
 <link type="text/css" rel="stylesheet" href="https://5x.brightpattern.com/clientweb/chat-client-v4/css/form.css">
 
 <script type="text/javascript">
@@ -61,7 +61,31 @@ togetherJS_enabled : true,
 
 </script>
 <script src="https://5x.brightpattern.com/clientweb/chat-client-v4/js/init.js"></script>
+-->
 
+
+
+<!-- You have to put this piece of JavaScript code into your web page
+Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
+-->
+<link type="text/css" rel="stylesheet" href="https://inmotion.brightpattern.com/clientweb/chat-client-v4/css/form.css">
+<script type="text/javascript">
+    SERVICE_PATTERN_CHAT_CONFIG = {
+        appId: '1234',
+        apiUrl: 'https://inmotion.brightpattern.com/clientweb/api/v1',
+        tenantUrl: 'inmotion.brightpattern.com',
+        chatPath: 'https://inmotion.brightpattern.com/clientweb/chat-client-v4/'
+
+        /*        
+         // Default customer data, it can be collected on current site's context
+         first_name: '',
+         last_name: '',
+         email: '',
+         phone_number: ''
+ 		*/
+    };
+</script>
+<script src="https://inmotion.brightpattern.com/clientweb/chat-client-v4/js/init.js"></script> 
  
  </body>
  
