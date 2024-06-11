@@ -157,7 +157,7 @@ Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
         apiUrl: 'https://inmotion.brightpattern.com/clientweb/api/v1',
         tenantUrl: 'inmotion.brightpattern.com',
         chatPath: 'https://inmotion.brightpattern.com/clientweb/chat-client-v4/',
-        parameters: { google_coockie: '86758765' }
+        parameters: { google_coockie: ga.getAll()[0].get('clientId'); }
         
 
         /*        
